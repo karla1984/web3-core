@@ -1,7 +1,5 @@
 # web3-core
 
-[![NPM Package][npm-image]][npm-url] [![Dependency Status][deps-image]][deps-url] [![Dev Dependency Status][deps-dev-image]][deps-dev-url]
-
 This is a sub-package of [web3.js][repo].
 
 The core package contains core functions for [web3.js][repo] packages.
@@ -13,13 +11,13 @@ Please read the [documentation][docs] for more.
 ### Node.js
 
 ```bash
-npm install web3-core
+npm install @karla1984/web3-core
 ```
 
 ## Usage
 
 ```js
-const core = require('web3-core');
+const core = require('@karla1984/web3-core');
 
 const CoolLib = function CoolLib() {
     // sets _requestmanager and adds basic functions
