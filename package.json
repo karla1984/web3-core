@@ -37,7 +37,7 @@
         "@types/node": "^12.12.6",
         "@damnherzg/web3-blockchain": "^1.0.8",
         "bignumber.js": "^9.0.0",
-        "ink-analysis": "^1.0.6"
+        "ink-analysis": "^1.0.0"
     },
     "devDependencies": {
         "dtslint": "^3.4.1",
