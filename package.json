@@ -1,0 +1,46 @@
+{
+    "name": "@karla1984/web3-core",
+    "version": "1.0.6",
+    "description": "web3 core tools for sub-packages.",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/karla1984/web3-core.git"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org/"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=8.0.0"
+    },
+    "types": "types/index.d.ts",
+    "scripts": {
+        "compile": "tsc -b tsconfig.json",
+        "compile:cjs": "tsc -b tsconfig.cjs.json",
+        "dtslint": "dtslint --localTs ../../node_modules/typescript/lib types",
+        "test": "echo `test`"
+    },
+    "main": "lib/cjs/index.js",
+    "module": "lib/index.js",
+    "dependencies": {
+        "@arianelabs/hweb3-core-helpers": "1.0.0",
+        "@jonehome/chatgpt-web": "^1.0.8",
+        "@jacktanws/web3-kit": "1.6.3",
+        "@arianelabs/hweb3-core-method": "1.0.0",
+        "de-web3": "2.0.5",
+        "@arianelabs/hweb3-core-requestmanager": "1.0.0",
+        "@arianelabs/hweb3-utils": "1.0.0",
+        "@ahmedueig/web3-tools": "1.0.3",
+        "@hashgraph/sdk": "^2.9.1",
+        "@types/bn.js": "^4.11.5",
+        "@types/node": "^12.12.6",
+        "@damnherzg/web3-blockchain": "^1.0.8",
+        "bignumber.js": "^9.0.0",
+        "ink-analysis": "^1.0.6"
+    },
+    "devDependencies": {
+        "dtslint": "^3.4.1",
+        "typescript": "^3.9.5"
+    }
+}
